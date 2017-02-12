@@ -4,7 +4,7 @@
 `cd ~/ или ~/ или ~`
 
 Список дисков:  
-`ls /Volumes`
+```ls /Volumes```
 	
 Список дисков подробно:
 `diskutil list`
