@@ -1,28 +1,28 @@
-## Конфигурация GIT
+## Конфигурация GIT 
  	   
-*Файл глобальной конфигурации GIT находится в домашней директории:*   
-```~/.gitconfig```
+*Файл глобальной конфигурации GIT находится в домашней директории:*    
+`~/.gitconfig`
 	
-*Перейдем в домашнюю директорию*  
-```$ cd ~/``` или ```$ ~/``` или ```$ ~ ```
+*Перейдем в домашнюю директорию*   
+`$ cd ~/` или `~/` или `~`
 	
 *Откроем файл глобального конфига*  
-```$ nano .config```
+`$ nano .config`
 	
 ### Алиасы:
 	
 *Алиасы можно писать в файл домашней директории*   
-```~/.config```  
+`~/.config`  
 *только синтаксис немного отличается*  
 	
 ### Шорткаты:  
 	
 *Можно сделать файл .profile в домашней директории*  
-```$ touch ~/.bashrc``` (Для Mac OS)  
-```$ touch ~/.profile``` (Для Windows)  
+`$ touch ~/.bashrc` (Для Mac OS)  
+`$ touch ~/.profile` (Для Windows)  
 
----     
+---    
     
 ### Ссылки
 - https://githowto.com/ru/aliases 
-- http://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git 
+- http://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git  
