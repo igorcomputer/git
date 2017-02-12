@@ -33,7 +33,7 @@ $ cd ../
 
 #### Список файлов и директорий в текущем каталоге:
   http://linuxcommand.org/man_pages/ls1.html
-  
+
   Подробный вывод  
   ```bash
   $ ls -l
