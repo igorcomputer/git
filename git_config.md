@@ -4,10 +4,10 @@
 `~/.gitconfig`
 	
 *Перейдем в домашнюю директорию*   
-`$ cd ~/` или `~/` или `~`
+`cd ~/` или `~/` или `~`
 	
 *Откроем файл глобального конфига*  
-`$ nano .config`
+`nano .config`
 	
 ### Алиасы:
 	
@@ -18,8 +18,8 @@
 ### Шорткаты:  
 	
 *Можно сделать файл .profile в домашней директории*  
-`$ touch ~/.bashrc` (Для Mac OS)  
-`$ touch ~/.profile` (Для Windows)  
+`touch ~/.bashrc` (Для Mac OS)  
+`touch ~/.profile` (Для Windows)  
 
 ---    
     
