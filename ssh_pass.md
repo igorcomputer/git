@@ -5,42 +5,42 @@
 ##### 1) Генерация ключей, при генерации будет предложено ввести ключевую фразу (keyphrase)  
 *Ключи попадут в ваш домашний каталог в папку .ssh*  
 ```bash
-$ ssh-keygen -f ~/.ssh/github -C "usermail@gmail.com"
+ssh-keygen -f ~/.ssh/github -C "usermail@gmail.com"
 ```
 ```bash
-$ ssh-keygen -f ~/.ssh/bitbucket -C "usermail@gmail.com"
+ssh-keygen -f ~/.ssh/bitbucket -C "usermail@gmail.com"
 ```
 
 ##### 2) Стартуем SSH агент:
 ```bash
-$ eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
 ```
 
 ##### 3) Добавленяем ключи
 ```bash
-$ ssh-add ~/.ssh/github
+ssh-add ~/.ssh/github
 ```
 ```bash
-$ ssh-add ~/.ssh/bitbucket
+ssh-add ~/.ssh/bitbucket
 ```
 
 ##### 4) Проверим список загруженных ключей
 ```bash
-$ ssh-add -l
+ssh-add -l
 ```
 
 ##### 5) Удалим ключи (если нужно) 
 ```bash
-$ ssh-add -D
+ssh-add -D
 ```
 
 ##### 6) Копируем ключ в буфер обмена:  
 (Для Mac OS, для Windows по-другому) 
 ```bash
-$ pbcopy < ~/.ssh/github.pub 
+pbcopy < ~/.ssh/github.pub 
 ```
 ```bash
-$ pbcopy < ~/.ssh/bitbucket.pub
+pbcopy < ~/.ssh/bitbucket.pub
 ```
 
 ##### 7) Вставляем каждый ключ в свои аккаунты (Настройки SSH)  
