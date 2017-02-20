@@ -1,2 +1,4 @@
 # ignore dir 
 /test/*
+
+.DS_Store
